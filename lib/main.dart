@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+
+import 'calendar_app.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -14,5 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(),
-      );}}
+      home: CalendarApp(),
+    );
+  }
+}
